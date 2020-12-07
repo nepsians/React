@@ -1,0 +1,6 @@
+----->>> REDUX-SAGA <<<------
+
+1. call - make an api call(waits until the promise is resolved).
+2. take - watches for a specific action to trigger the saga.(only ones) {takeEvery(takes all)} {takeOnce()}
+3. put - execute a specific action to the reducers.
+4. fork - similar to call, but allows different sagas to work parrallely.
